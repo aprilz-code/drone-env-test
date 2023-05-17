@@ -1,0 +1,8 @@
+server:
+  port: 8001
+
+spring:
+  application:
+    name: drone
+  profiles:
+    active: @profile.active@
